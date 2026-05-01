@@ -1,0 +1,8 @@
+# xtractor/nodejs/es
+XT_TITLE="$(c_bold "$(c_blue '▶ nodejs')") $(c_dim '— instalador vía tar.xz desde nodejs.org')"
+XT_DEPS="$(c_step 'instalando deps apt: curl xz-utils')"
+XT_DOWNLOAD="$(c_step 'descargando node v22.15.1 linux-x64')"
+XT_EXTRACT="$(c_step 'extrayendo')"
+XT_INSTALL="$(c_step 'instalando en /usr/local/node')"
+XT_PATH="$(c_step 'añadiendo /usr/local/node/bin al PATH en ~/.bashrc')"
+XT_DONE="$(c_ok 'Node.js instalado correctamente')"
