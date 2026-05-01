@@ -1,0 +1,10 @@
+# xtractor/python/es
+XT_TITLE="$(c_bold "$(c_blue '▶ python')") $(c_dim '— compilación desde fuente python.org')"
+XT_DEPS="$(c_step 'instalando deps de build (puede tardar)')"
+XT_FETCH_VERSION="$(c_dim 'Consultando última versión en python.org/ftp/python...')"
+XT_VERSION="$(c_info 'versión: %s')"
+XT_DOWNLOAD="$(c_step 'descargando Python-%s.tar.xz')"
+XT_CONFIGURE="$(c_step 'configure --enable-optimizations')"
+XT_BUILD="$(c_step 'compilando (varios minutos)')"
+XT_INSTALL="$(c_step 'make install')"
+XT_DONE="$(c_ok 'Python instalado correctamente')"
