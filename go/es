@@ -1,0 +1,9 @@
+# xtractor/go/es
+XT_TITLE="$(c_bold "$(c_blue '▶ go')") $(c_dim '— instalador vía tar.gz desde go.dev')"
+XT_FETCH_VERSION="$(c_dim 'Consultando última versión en go.dev/dl...')"
+XT_VERSION="$(c_info 'versión: %s')"
+XT_ARCH="$(c_info 'arch: %s')"
+XT_DOWNLOAD="$(c_step 'descargando %s')"
+XT_EXTRACT="$(c_step 'extrayendo a /usr/local')"
+XT_PATH="$(c_step 'añadiendo /usr/local/go/bin al PATH en ~/.bashrc')"
+XT_DONE="$(c_ok 'Go instalado correctamente')"
