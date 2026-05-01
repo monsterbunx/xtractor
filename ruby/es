@@ -1,0 +1,4 @@
+# xtractor/ruby/es
+XT_TITLE="$(c_bold "$(c_blue '▶ ruby')") $(c_dim '— instalador vía apt (ruby-full)')"
+XT_DEPS="$(c_step 'apt update + apt install ruby-full')"
+XT_DONE="$(c_ok 'Ruby instalado correctamente')"

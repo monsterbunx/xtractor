@@ -1,0 +1,6 @@
+# xtractor/bun/es
+XT_TITLE="$(c_bold "$(c_blue '▶ bun')") $(c_dim '— instalador vía bun.sh/install')"
+XT_DEPS="$(c_step 'instalando deps apt: curl, unzip, ca-certificates')"
+XT_INSTALL="$(c_step 'corriendo bun.sh/install')"
+XT_PATH="$(c_step 'añadiendo /root/.bun/bin al PATH')"
+XT_DONE="$(c_ok 'Bun instalado correctamente')"

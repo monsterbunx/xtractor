@@ -1,0 +1,4 @@
+# xtractor/elixir/es
+XT_TITLE="$(c_bold "$(c_blue '▶ elixir')") $(c_dim '— instalador vía apt (Debian repo)')"
+XT_DEPS="$(c_step 'apt update + apt install elixir')"
+XT_DONE="$(c_ok 'Elixir instalado correctamente')"

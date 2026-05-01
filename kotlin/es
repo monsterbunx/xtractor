@@ -1,0 +1,9 @@
+# xtractor/kotlin/es
+XT_TITLE="$(c_bold "$(c_blue '▶ kotlin')") $(c_dim '— instalador vía release oficial JetBrains')"
+XT_DEPS="$(c_step 'instalando deps apt: default-jre, unzip, curl')"
+XT_FETCH_VERSION="$(c_dim 'consultando última release en GitHub...')"
+XT_VERSION="$(c_info 'versión: %s')"
+XT_DOWNLOAD="$(c_step 'descargando kotlin-compiler-%s.zip')"
+XT_INSTALL="$(c_step 'extrayendo a /usr/local/kotlinc')"
+XT_PATH="$(c_step 'symlink /usr/local/bin/kotlinc')"
+XT_DONE="$(c_ok 'Kotlin instalado correctamente')"

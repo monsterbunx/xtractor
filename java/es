@@ -1,0 +1,4 @@
+# xtractor/java/es
+XT_TITLE="$(c_bold "$(c_blue '▶ java')") $(c_dim '— instalador OpenJDK vía apt')"
+XT_DEPS="$(c_step 'apt update + apt install default-jdk')"
+XT_DONE="$(c_ok 'Java (OpenJDK) instalado correctamente')"

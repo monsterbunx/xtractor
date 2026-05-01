@@ -1,0 +1,4 @@
+# xtractor/lua/es
+XT_TITLE="$(c_bold "$(c_blue '▶ lua')") $(c_dim '— instalador vía apt (lua5.4)')"
+XT_DEPS="$(c_step 'apt update + apt install lua5.4')"
+XT_DONE="$(c_ok 'Lua instalado correctamente')"

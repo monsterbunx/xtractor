@@ -1,0 +1,6 @@
+# xtractor/rust/es
+XT_TITLE="$(c_bold "$(c_blue '▶ rust')") $(c_dim '— instalador vía rustup.rs')"
+XT_DEPS="$(c_step 'instalando deps apt: curl, ca-certificates, build-essential')"
+XT_INSTALL="$(c_step 'corriendo rustup-init -y (toolchain stable)')"
+XT_PATH="$(c_step 'añadiendo ~/.cargo/bin al PATH')"
+XT_DONE="$(c_ok 'Rust instalado correctamente')"

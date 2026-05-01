@@ -1,0 +1,8 @@
+# xtractor/dotnet/es
+XT_TITLE="$(c_bold "$(c_blue '▶ dotnet')") $(c_dim '— instalador .NET SDK vía packages.microsoft.com')"
+XT_DEPS="$(c_step 'instalando deps apt: wget, ca-certificates')"
+XT_REPO_DOWNLOAD="$(c_step 'descargando packages-microsoft-prod.deb')"
+XT_REPO_INSTALL="$(c_step 'dpkg -i packages-microsoft-prod.deb')"
+XT_REPO_UPDATE="$(c_dim 'apt update con repo de Microsoft...')"
+XT_INSTALL="$(c_step 'apt install dotnet-sdk-8.0')"
+XT_DONE="$(c_ok '.NET SDK instalado correctamente')"

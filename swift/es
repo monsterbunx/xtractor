@@ -1,0 +1,7 @@
+# xtractor/swift/es
+XT_TITLE="$(c_bold "$(c_blue '▶ swift')") $(c_dim '— instalador vía tar.gz desde swift.org')"
+XT_DEPS="$(c_step 'instalando deps apt (libcurl, libpython, libxml2, etc.)')"
+XT_DOWNLOAD="$(c_step 'descargando swift toolchain (~700MB, esto tarda)')"
+XT_EXTRACT="$(c_step 'extrayendo a /usr/local/swift')"
+XT_PATH="$(c_step 'añadiendo /usr/local/swift/usr/bin al PATH')"
+XT_DONE="$(c_ok 'Swift instalado correctamente')"
