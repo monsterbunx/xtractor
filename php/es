@@ -1,0 +1,10 @@
+# xtractor/php/es
+XT_TITLE="$(c_bold "$(c_blue '▶ php')") $(c_dim '— compilación desde fuente php-src')"
+XT_DEPS="$(c_step 'instalando deps de build')"
+XT_DOWNLOAD="$(c_step 'descargando php-src 8.5.0 desde GitHub')"
+XT_BUILDCONF="$(c_step 'buildconf --force (requiere autoconf)')"
+XT_CONFIGURE="$(c_step 'configure')"
+XT_BUILD="$(c_step 'compilando')"
+XT_TEST="$(c_step 'corriendo make test (suite completa, puede tardar mucho)')"
+XT_INSTALL="$(c_step 'make install')"
+XT_DONE="$(c_ok 'PHP instalado correctamente')"
