@@ -1,0 +1,6 @@
+# xtractor/haskell/es
+XT_TITLE="$(c_bold "$(c_blue '▶ haskell')") $(c_dim '— instalador vía GHCup')"
+XT_DEPS="$(c_step 'instalando deps apt: build-essential, libffi-dev, libgmp-dev, libncurses-dev, zlib1g-dev, curl, ca-certificates')"
+XT_INSTALL="$(c_step 'corriendo get-ghcup.haskell.org (BOOTSTRAP_HASKELL_NONINTERACTIVE=1)')"
+XT_PATH="$(c_step 'añadiendo ~/.ghcup/bin al PATH')"
+XT_DONE="$(c_ok 'Haskell (GHC + cabal + stack) instalado correctamente')"

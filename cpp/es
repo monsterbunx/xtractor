@@ -1,0 +1,4 @@
+# xtractor/cpp/es
+XT_TITLE="$(c_bold "$(c_blue '▶ cpp')") $(c_dim '— toolchain C/C++ (gcc, g++, clang, make) vía apt')"
+XT_DEPS="$(c_step 'apt install build-essential clang')"
+XT_DONE="$(c_ok 'Toolchain C/C++ instalado correctamente')"

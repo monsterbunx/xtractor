@@ -1,0 +1,4 @@
+# xtractor/r/es
+XT_TITLE="$(c_bold "$(c_blue '▶ r')") $(c_dim '— instalador R vía apt (r-base)')"
+XT_DEPS="$(c_step 'apt update + apt install r-base')"
+XT_DONE="$(c_ok 'R instalado correctamente')"

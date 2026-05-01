@@ -1,0 +1,9 @@
+# xtractor/zig/es
+XT_TITLE="$(c_bold "$(c_blue '▶ zig')") $(c_dim '— instalador vía tar.xz desde ziglang.org')"
+XT_DEPS="$(c_step 'instalando deps apt: curl, ca-certificates, xz-utils')"
+XT_FETCH_VERSION="$(c_dim 'consultando última versión en ziglang.org/download/index.json...')"
+XT_VERSION="$(c_info 'versión: %s')"
+XT_DOWNLOAD="$(c_step 'descargando zig-linux-x86_64-%s.tar.xz')"
+XT_EXTRACT="$(c_step 'extrayendo a /usr/local/zig')"
+XT_PATH="$(c_step 'symlink /usr/local/bin/zig')"
+XT_DONE="$(c_ok 'Zig instalado correctamente')"

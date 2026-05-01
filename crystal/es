@@ -1,0 +1,5 @@
+# xtractor/crystal/es
+XT_TITLE="$(c_bold "$(c_blue '▶ crystal')") $(c_dim '— instalador vía script oficial crystal-lang.org')"
+XT_DEPS="$(c_step 'instalando deps apt: curl, gnupg, ca-certificates')"
+XT_INSTALL="$(c_step 'curl -fsSL crystal-lang.org/install.sh | bash')"
+XT_DONE="$(c_ok 'Crystal instalado correctamente')"

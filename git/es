@@ -1,0 +1,4 @@
+# xtractor/git/es
+XT_TITLE="$(c_bold "$(c_blue '▶ git')") $(c_dim '— instalador vía apt')"
+XT_DEPS="$(c_step 'apt update + apt install git')"
+XT_DONE="$(c_ok 'git instalado correctamente')"

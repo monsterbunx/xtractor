@@ -1,0 +1,4 @@
+# xtractor/vim/es
+XT_TITLE="$(c_bold "$(c_blue '▶ vim')") $(c_dim '— instalador vía apt')"
+XT_DEPS="$(c_step 'apt update + apt install vim')"
+XT_DONE="$(c_ok 'vim instalado correctamente')"

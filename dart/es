@@ -1,0 +1,8 @@
+# xtractor/dart/es
+XT_TITLE="$(c_bold "$(c_blue '▶ dart')") $(c_dim '— instalador vía repo Google (storage.googleapis.com)')"
+XT_DEPS="$(c_step 'apt install gnupg, apt-transport-https, ca-certificates, curl')"
+XT_KEYRING="$(c_step 'añadiendo keyring de Google')"
+XT_REPO_ADD="$(c_step 'añadiendo repo dart_stable a sources.list.d')"
+XT_REPO_UPDATE="$(c_dim 'apt update con repo de Dart...')"
+XT_INSTALL="$(c_step 'apt install dart')"
+XT_DONE="$(c_ok 'Dart instalado correctamente')"

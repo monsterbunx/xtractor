@@ -1,0 +1,4 @@
+# xtractor/jq/es
+XT_TITLE="$(c_bold "$(c_blue '▶ jq')") $(c_dim '— instalador vía apt')"
+XT_DEPS="$(c_step 'apt update + apt install jq')"
+XT_DONE="$(c_ok 'jq instalado correctamente')"

@@ -1,0 +1,7 @@
+# xtractor/scala/es
+XT_TITLE="$(c_bold "$(c_blue '▶ scala')") $(c_dim '— instalador vía Coursier (cs setup)')"
+XT_DEPS="$(c_step 'instalando deps apt: default-jre, curl, ca-certificates')"
+XT_DOWNLOAD="$(c_step 'descargando coursier (cs)')"
+XT_SETUP="$(c_step 'cs setup --yes (instala JVM, scala, sbt, ammonite)')"
+XT_PATH="$(c_step 'añadiendo ~/.local/share/coursier/bin al PATH')"
+XT_DONE="$(c_ok 'Scala (vía Coursier) instalado correctamente')"

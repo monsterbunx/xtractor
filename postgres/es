@@ -1,0 +1,5 @@
+# xtractor/postgres/es
+XT_TITLE="$(c_bold "$(c_blue '▶ postgres')") $(c_dim '— instalador PostgreSQL server + client vía apt')"
+XT_DEPS="$(c_step 'apt update + apt install postgresql postgresql-contrib')"
+XT_NOTE="$(c_warn 'nota: el daemon no se inicia automáticamente en contenedor sin systemd')"
+XT_DONE="$(c_ok 'PostgreSQL instalado correctamente')"

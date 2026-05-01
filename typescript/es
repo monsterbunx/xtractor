@@ -1,0 +1,5 @@
+# xtractor/typescript/es
+XT_TITLE="$(c_bold "$(c_blue '▶ typescript')") $(c_dim '— instalador global vía npm')"
+XT_DEPS="$(c_step 'apt install nodejs + npm (si falta)')"
+XT_INSTALL="$(c_step 'npm install -g typescript')"
+XT_DONE="$(c_ok 'TypeScript instalado correctamente')"

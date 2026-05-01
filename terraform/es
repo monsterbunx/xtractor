@@ -1,0 +1,8 @@
+# xtractor/terraform/es
+XT_TITLE="$(c_bold "$(c_blue '▶ terraform')") $(c_dim '— instalador vía repo HashiCorp')"
+XT_DEPS="$(c_step 'apt install gnupg, lsb-release, ca-certificates, curl')"
+XT_KEYRING="$(c_step 'añadiendo keyring de apt.releases.hashicorp.com')"
+XT_REPO_ADD="$(c_step 'añadiendo repo de HashiCorp a sources.list.d')"
+XT_REPO_UPDATE="$(c_dim 'apt update con repo HashiCorp...')"
+XT_INSTALL="$(c_step 'apt install terraform')"
+XT_DONE="$(c_ok 'Terraform instalado correctamente')"

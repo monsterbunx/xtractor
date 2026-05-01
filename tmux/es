@@ -1,0 +1,4 @@
+# xtractor/tmux/es
+XT_TITLE="$(c_bold "$(c_blue '▶ tmux')") $(c_dim '— instalador vía apt')"
+XT_DEPS="$(c_step 'apt update + apt install tmux')"
+XT_DONE="$(c_ok 'tmux instalado correctamente')"
