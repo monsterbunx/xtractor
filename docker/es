@@ -1,0 +1,17 @@
+# xtractor/docker/es — strings en español para jhin/docker
+# Requiere klors sourceado antes (define c_*).
+XT_TITLE="$(c_bold "$(c_blue '▶ docker')") $(c_dim '— instalador vía .deb stable')"
+XT_DEPS_CHECK="$(c_dim 'Verificando dependencias del sistema...')"
+XT_DEP_OK="$(c_ok '%s ya instalado')"
+XT_DEP_INSTALL="$(c_step 'instalando %s')"
+XT_OS_DETECTED="$(c_info 'OS=%s sabor=%s arch=%s')"
+XT_LIST_INDEX="$(c_dim 'Indexando paquetes en download.docker.com...')"
+XT_DOWNLOAD="$(c_step 'descargando %s')"
+XT_INSTALL_DEB="$(c_step 'dpkg -i %s')"
+XT_FIX_BROKEN="$(c_dim 'Resolviendo dependencias rotas...')"
+XT_DIND_DETECTED="$(c_warn 'Entorno DinD detectado — no hay systemd')"
+XT_DAEMON_START="$(c_step 'arrancando dockerd con storage-driver=vfs')"
+XT_DAEMON_WAIT="$(c_dim '   esperando /var/run/docker.sock...')"
+XT_DAEMON_OK="$(c_ok 'docker daemon listo')"
+XT_DAEMON_FAIL="$(c_fail 'dockerd no respondió en 30s — revisa /var/log/dockerd.log')"
+XT_DONE="$(c_ok 'Docker instalado correctamente')"
