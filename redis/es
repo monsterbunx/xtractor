@@ -1,0 +1,5 @@
+# xtractor/redis/es
+XT_TITLE="$(c_bold "$(c_blue '▶ redis')") $(c_dim '— Redis server + cliente CLI vía apt')"
+XT_DEPS="$(c_step 'apt update + apt install redis')"
+XT_NOTE="$(c_warn 'nota: el daemon no se inicia automáticamente sin systemd — usar: redis-server --daemonize yes')"
+XT_DONE="$(c_ok 'Redis instalado correctamente')"
