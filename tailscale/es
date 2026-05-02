@@ -1,0 +1,6 @@
+# xtractor/tailscale/es
+XT_TITLE="$(c_bold "$(c_blue '▶ tailscale')") $(c_dim '— Tailscale (binario + daemon) vía repo apt oficial pkgs.tailscale.com')"
+XT_DEPS="$(c_step 'apt: curl gnupg ca-certificates + GPG Tailscale + repo bookworm/stable')"
+XT_INSTALL="$(c_step 'apt install tailscale')"
+XT_NOTE="$(c_warn 'nota: el daemon tailscaled requiere NET_ADMIN o userspace networking; para join: tailscaled & + tailscale up [--authkey=tskey-...]')"
+XT_DONE="$(c_ok 'Tailscale instalado correctamente')"
