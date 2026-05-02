@@ -1,0 +1,6 @@
+# xtractor/mongodb/es
+XT_TITLE="$(c_bold "$(c_blue '▶ mongodb')") $(c_dim '— cliente mongosh vía repo oficial MongoDB (apt)')"
+XT_DEPS="$(c_step 'apt: gnupg curl + GPG MongoDB + repo bookworm/mongodb-org/7.0')"
+XT_INSTALL="$(c_step 'apt install mongodb-mongosh')"
+XT_NOTE="$(c_warn 'nota: solo cliente shell — el server mongod requiere systemd, no recomendado en contenedor')"
+XT_DONE="$(c_ok 'mongosh instalado correctamente')"

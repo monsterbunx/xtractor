@@ -1,0 +1,4 @@
+# xtractor/sql/es
+XT_TITLE="$(c_bold "$(c_blue '▶ sql')") $(c_dim '— instalador SQLite (motor SQL standalone, sin daemon)')"
+XT_DEPS="$(c_step 'apt update + apt install sqlite3 libsqlite3-dev')"
+XT_DONE="$(c_ok 'SQLite instalado correctamente')"

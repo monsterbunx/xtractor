@@ -1,0 +1,6 @@
+# xtractor/prisma/es
+XT_TITLE="$(c_bold "$(c_blue '▶ prisma')") $(c_dim '— Prisma CLI vía npm (instala nodejs+npm si falta)')"
+XT_DEPS="$(c_step 'apt: nodejs npm (si npm no está disponible)')"
+XT_INSTALL="$(c_step 'npm install -g prisma')"
+XT_NOTE="$(c_warn 'nota: usa apt nodejs (más viejo); para Node más reciente, sourcea jhin/nodejs antes')"
+XT_DONE="$(c_ok 'Prisma instalado correctamente')"

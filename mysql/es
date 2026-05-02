@@ -1,0 +1,5 @@
+# xtractor/mysql/es
+XT_TITLE="$(c_bold "$(c_blue '▶ mysql')") $(c_dim '— cliente MySQL/MariaDB vía apt (default-mysql-client)')"
+XT_DEPS="$(c_step 'apt update + apt install default-mysql-client')"
+XT_NOTE="$(c_warn 'nota: solo cliente CLI — el server MySQL requiere systemd, no recomendado en contenedor')"
+XT_DONE="$(c_ok 'cliente MySQL instalado correctamente')"
