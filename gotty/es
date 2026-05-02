@@ -1,0 +1,6 @@
+# xtractor/gotty/es
+XT_TITLE="$(c_bold "$(c_blue '▶ gotty')") $(c_dim '— gotty (CLI → web terminal) vía binario oficial sorenisanerd/gotty')"
+XT_DEPS="$(c_step 'apt: curl ca-certificates tar')"
+XT_DOWNLOAD="$(c_step 'curl tar.gz desde github releases')"
+XT_INSTALL="$(c_step 'mover gotty a /usr/local/bin')"
+XT_DONE="$(c_ok 'gotty instalado correctamente')"
