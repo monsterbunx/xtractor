@@ -1,0 +1,6 @@
+# xtractor/vscode/es
+XT_TITLE="$(c_bold "$(c_blue '▶ vscode')") $(c_dim '— Visual Studio Code (Microsoft) vía repo packages.microsoft.com')"
+XT_DEPS="$(c_step 'instalando deps apt: curl gnupg apt-transport-https ca-certificates')"
+XT_REPO="$(c_step 'añadiendo repo packages.microsoft.com/repos/code (signed-by /usr/share/keyrings/packages.microsoft.gpg)')"
+XT_INSTALL="$(c_step 'instalando paquete code (apt)')"
+XT_DONE="$(c_ok 'VS Code instalado correctamente')"
